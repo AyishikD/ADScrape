@@ -1,4 +1,4 @@
-import Modal from "@/components/Modal";
+import Modal from "@/component/Modal";
 import PriceInfoCard from "@/component/PriceInfoCard";
 import ProductCard from "@/component/ProductCard";
 import { getProductById, getSimilarProducts } from "@/lib/actions"
