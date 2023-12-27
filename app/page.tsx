@@ -1,8 +1,8 @@
-import HeroCarousel from "@/component/HeroCarousel"
-import Searchbar from "@/component/SearchBar"
+import HeroCarousel from "@/components/HeroCarousel"
+import Searchbar from "@/components/Searchbar"
 import Image from "next/image"
 import { getAllProducts } from "@/lib/actions"
-import ProductCard from "@/component/ProductCard"
+import ProductCard from "@/components/ProductCard"
 
 const Home = async () => {
   const allProducts = await getAllProducts();
@@ -13,7 +13,7 @@ const Home = async () => {
         <div className="flex max-xl:flex-col gap-16">
           <div className="flex flex-col justify-center"> 
             <p className="small-text">
-              Smart Shopping at Low Price Here:
+              Smart Shopping Starts Here:
               <Image 
                 src="/assets/icons/arrow-right.svg"
                 alt="arrow-right"
