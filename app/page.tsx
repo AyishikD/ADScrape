@@ -12,7 +12,7 @@ const Home = async () => {
       <section className="px-6 md:px-20 py-24">
         <div className="flex max-xl:flex-col gap-16">
           <div className="flex flex-col justify-center"> 
-            <p className="small-text">
+            <p className="small-text" style={{ color: 'darkred' }}>
               Smart Shopping Starts Here:
               <Image 
                 src="/assets/icons/arrow-right.svg"
@@ -24,7 +24,7 @@ const Home = async () => {
 
             <h1 className="head-text">
               Unleash the Power of
-              <span className="text-primary"> ADScrape</span>
+              <span className="text-primary" style={{ color: 'green' }}> ADScrape</span>
             </h1>
 
             <p className="mt-6">

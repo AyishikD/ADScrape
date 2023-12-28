@@ -20,7 +20,7 @@ const Navbar = () => {
           />
 
           <p className="nav-logo">
-            AD<span className='text-primary'>Scrape</span>
+            AD<span className="text-primary" style={{ color: 'skyblue' }}>Scrape</span>
           </p>
         </Link>
 
