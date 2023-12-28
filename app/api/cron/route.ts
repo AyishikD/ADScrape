@@ -61,7 +61,7 @@ async function processProductBatch(products: any[]) {
       }
 
       updatedProducts.push(updatedProduct);
-    } catch (error) {
+    } catch (error: any) { // Explicitly define the type of the caught error
       console.error(`Error processing product: ${error.message}`);
     }
   }
